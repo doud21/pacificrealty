@@ -1,0 +1,207 @@
+html, body {
+  margin:0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.small {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.links {
+  position: absolute;
+  top:3%;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  margin: 20px;
+  padding: 0;
+  z-index: 10;
+}
+
+li {
+  list-style-type:none;
+  margin: 2vh 2vw;
+  font-size: 3vh;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding:0;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 40%;
+  width:auto;
+}
+
+li a:hover {
+  color: #02249E;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.logo:hover {
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+}
+
+h4 {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+}
+
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  margin: 20% 0 0 20%;
+}
+
+.marks {
+  width: 20%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.quotes {
+  margin: 0;
+  padding: 0;
+}
+
+.quoted {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+  color: #27496B;
+}
+
+.quote {
+  margin: 20% 20% 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  width: 60%;
+  height: auto;
+  border: 3px groove;
+}
+
+.description {
+  position: relative;
+  margin: 5% 20% 0% 20%;
+  text-align: justify;
+}
+
+.hidden {
+  display: none;
+}
+
+#picture {
+  position: relative;
+  margin: 5% 20% 20% 20%;
+}
+
+#picture img {
+  width: 60%;
+  height: auto;
+  transition: 0.3s;
+  border: 3px groove;
+  padding: 10% 20% 10% 20%;
+}
+
+#picture img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  animation: fade-out .5s;
+}
+
+@keyframes fade-out {
+  from {
+    background: #F7F7F7;
+  }
+  to {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.lightbox {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+}
+
+.lightbox img {
+  width: 100%;
+}
+
+.lightbox .caption {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  margin-top: 5%;
+  background-color: #02249E;
+  color: white;
+  padding: 2vh;
+  text-align: center;
+}

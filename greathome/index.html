@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  	<title>Home</title>
+  	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+  	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="banner">
+        <a href="index.html">
+          <img src="images/thumbnail.jpg" alt="images/header.jpg" class="big" width="100%">
+        </a>
+      </div>
+      <div class="links">
+        <nav>
+          <ul>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="showroom">
+      <h1>SHOWROOM</h1>
+      <h4>A selection of the many homes we have helped our clients buy or sell in San Diego!</h4>
+      <br>
+      <div class="slideshow">
+        <div class="slide fade">
+          <img src='images/sold1.jpg' style='width: 100%;' alt="12935 Flintwood Way, San Diego, CA 92130"/>
+            <div class="text">
+              <h2>12935 Flintwood Way, San Diego, CA 92130 </h2>
+              <h3> SOLD FOR: $1,340,000 | 4 bed + loft, 3 full bath, 2724 sq. ft </h3>
+              <p>Beautiful Bordaux home in Carmel Valley. Clear, unobstructed canyon views. Walking distance to Sycamore Ridge Elementary School and Cathedral high school, Canyon Crest Academy and Pacific Trails Middle school. </p>
+            </div>
+        </div>
+        <div class="slide fade">
+          <img src='images/sold2.jpg' style='width: 100%;' alt="16863 Via Los Farolitos, Rancho Santa Fe, CA 92067"/>
+            <div class="text">
+              <h2>16863 Via Los Farolitos, Rancho Santa Fe, CA 92067 </h2>
+              <h3> SOLD FOR: $2,185,000 | 3 bed, 4 bath, 3697 sq. ft </h3>
+              <p>Single family home on a beautiful Rancho Santa Fe property. Built in 1985 with a grand and elegant interior and a spacious backyard. Highly desirable neighborhood.</p>
+            </div>
+        </div>
+        <div class="slide fade">
+          <img src='images/sold3.jpg' style='width: 100%;' alt="7351 Rue Michael, La Jolla, CA 92037"/>
+            <div class="text">
+              <h2>7351 Rue Michael, La Jolla, CA 92037</h2>
+              <h3> SOLD FOR: $2,640,000 | 3 bed, 3 bath, 2964 sq. ft </h3>
+              <p>Dramatic, panoramic view home in Hidden Valley. Spacious, open floor plan with vaulted ceilings, travertine floors, and wall to wall glass opens onto large view deck. Endless, sit-down views.</p>
+            </div>
+        </div>
+        <a class="left" onclick='plusSlides(-1)'>&#10094;</a>
+        <a class="right" onclick='plusSlides(1)'>&#10095;</a>
+      </div>
+
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <footer>
+      <div class="line">
+        Serving San Diego Since 2008
+      </div>
+      <div class="line">
+        <b>Lu Dai</b> | Pacific Realty International | 858-729-8868 | greathome@gmail.com
+      </div>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
